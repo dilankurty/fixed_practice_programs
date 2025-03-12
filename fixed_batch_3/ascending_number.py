@@ -5,6 +5,7 @@ while True:
     try:
         num = float(input("Enter a number: "))
         num_list.append(num)
+        num_list.sort()
     except ValueError:
-        print(f"Ascending order: {sort(num_list)})
+        print(f"Ascending order: {num_list}")
         break
