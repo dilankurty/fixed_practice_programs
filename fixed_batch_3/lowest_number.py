@@ -2,7 +2,9 @@
 
 num_list = []
 while True:
-    num = float(input("Enter a number: "))
-    num_list.append(num)
-    
-    print(f"Lowest number: {min(num_list)}")
+    try:
+        num = float(input("Enter a number: "))
+        num_list.append(num)
+    except ValueError:
+        print(f"Lowest number: {min(num_list)}")
+        break
