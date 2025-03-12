@@ -6,4 +6,5 @@ num2 = float(input("Enter second number: "))
 if num2 == 0:
     print("Cannot divide by zero.")
 else:
-    print(int(num1//num2))
+    qoutient = int(num1 // num2)
+    print(f"Quotient (w/o decimal): {qoutient}")
