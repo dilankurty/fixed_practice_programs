@@ -8,3 +8,4 @@ while True:
         average = sum(num_list) / len(num_list)
     except ValueError:    
         print(f"Average: {average}")
+        break
