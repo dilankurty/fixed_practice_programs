@@ -2,7 +2,10 @@
 
 num_list = []
 while True:
-    num = float(input("Enter a number: "))
-    num_list.append(num)
-    num_list.sort(reverse = True)
-    print(num_list)
+    try:
+        num = float(input("Enter a number: "))
+        num_list.append(num)
+        num_list.sort(reverse = True)
+    except ValueError:
+        print(num_list)
+        break
