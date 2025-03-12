@@ -3,7 +3,7 @@
 num_list = []
 while True:
     try:
-        num = input("Enter a number: ")
+        num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
         print(f"Highest number: {max(num_list)}")
