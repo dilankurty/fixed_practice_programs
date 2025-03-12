@@ -5,3 +5,4 @@ while True:
     num = float(input("Enter a number: "))
     num_list.append(num)
     average = sum(num_list) / len(num_list)
+    print(f"Average: {average}")
