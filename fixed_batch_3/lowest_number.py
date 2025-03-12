@@ -5,3 +5,4 @@ while True:
     num = float(input("Enter a number: "))
     num_list.append(num)
     
+    print(f"Lowest number: {min(num_list)}")
