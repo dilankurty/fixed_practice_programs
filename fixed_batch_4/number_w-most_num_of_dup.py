@@ -6,7 +6,6 @@ while True:
         num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
+        most_duplicate = max(num_list, key = num_list.count)
+        print(f"Most duplicate: {most_duplicate}")
         break
-    
-    most_duplicate = max(num_list)
-    print(f"Most duplicate: {most_duplicate}")
