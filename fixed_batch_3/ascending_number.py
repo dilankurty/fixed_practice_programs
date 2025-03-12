@@ -4,5 +4,7 @@ num_list = []
 while True:
     try:
         num = float(input("Enter a number: "))
+        num_list.append(num)
     except ValueError:
+        print(num_list)
         break
