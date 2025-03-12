@@ -2,7 +2,9 @@
 
 num_list = []
 while True:
-    num = float(input("Enter a number: "))
-    num_list.append(num)
-    average = sum(num_list) / len(num_list)
-    print(f"Average: {average}")
+    try:
+        num = float(input("Enter a number: "))
+        num_list.append(num)
+        average = sum(num_list) / len(num_list)
+    except ValueError:    
+        print(f"Average: {average}")
