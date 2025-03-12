@@ -11,6 +11,6 @@ while True:
             print("Unique")
         else:
             print("Duplicate")
-    
     except ValueError:
+        print("End.")
         break
