@@ -5,3 +5,9 @@ num_list = []
 while True:
     num = float(input("Enter a number: "))
     num_list.append(num)
+
+    if num_list.count(num) == 1:
+        print("Unique")
+    else:
+        print("Duplicate")
+        break
