@@ -4,8 +4,8 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
         
 if num1 < num2:
-    print(f"The smaller number is: {num1}")
+    print(f"Smaller number: {num1}")
 elif num2 < num1:
-    print(f"The smaller number is: {num2}")
+    print(f"Smaller number: {num2}")
 else:
-    print("Both numbers are equal.")
+    print("Equal.")
