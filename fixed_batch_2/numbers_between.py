@@ -5,10 +5,12 @@ num2 = int(input("Enter second number: "))
 
 start = min(num1, num2)
 stop = max(num1, num2)
+num_between = []
 
 if stop - start < 2:
     print("There are no numbers between them.")
 
 else:
-    for i in range(start + 1, stop):
-        print(i)
+    for num in range(start + 1, stop):
+        num_between.append(num)
+    print(num_between)
