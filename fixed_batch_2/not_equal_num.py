@@ -6,4 +6,4 @@ num2 = float(input("Enter second number: "))
 if num1 != num2:
     print("Not Equal")
 else:
-    print("Both numbers are equal.")
+    print("Equal.")
