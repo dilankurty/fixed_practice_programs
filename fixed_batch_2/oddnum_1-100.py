@@ -1,10 +1,9 @@
 # Prog08: Create a program that print all the odd numbers starting from 0 to 100. (Use while loop)
 
-nums = []
-i = 1
+num_list = []
+num = 1
+while num <= 100:
+    num_list.append(num)
+    num += 2
 
-while i <= 100:
-    nums.append(i)
-    i += 2
-
-print(nums)
+print(num_list)
