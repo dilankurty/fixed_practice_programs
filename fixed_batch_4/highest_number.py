@@ -4,3 +4,5 @@ num_list = []
 while True:
     num = input("Enter a number: ")
     num_list.append(num)
+
+    print(f"Highest number: {max(num_list)}")
