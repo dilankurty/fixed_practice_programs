@@ -4,3 +4,6 @@ num_list = []
 while True:
     num = float(input("Enter a number: "))
     num_list.append(num)
+
+    most_duplicate = max(num_list)
+    print(f"Most duplicate: {most_duplicate}")
