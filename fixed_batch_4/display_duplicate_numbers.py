@@ -7,6 +7,7 @@ for i in range(10):
 
 duplicates = []
 for num in num_list:
-    if num_list.count(num) > 1:
+    if num_list.count(num) > 1 and num not in duplicates:
         duplicates.append(num)
-        print(duplicates)
+
+print(duplicates)
