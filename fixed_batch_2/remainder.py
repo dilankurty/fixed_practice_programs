@@ -6,4 +6,5 @@ num2 = float(input("Enter second number: "))
 if num2 == 0:
     print("Cannot divide by zero.")
 else:
-    print(f"Remainder: {num1%num2}")
+    remainder = (num1 % num2)
+    print(f"Remainder: {remainder}")
