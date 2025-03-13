@@ -2,6 +2,7 @@
 
 num_list = []
 num = 1
+
 while num <= 100:
     num_list.append(num)
     num += 2
